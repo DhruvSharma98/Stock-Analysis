@@ -11,6 +11,9 @@ register_matplotlib_converters()
 
 from matplotlib.legend_handler import HandlerLine2D, HandlerTuple
 
+import warnings
+warnings.filterwarnings("ignore")
+
 #user defined
 import cursor_functionality
 
